@@ -1,0 +1,88 @@
+[
+    {
+        "hatenorm_with_span.csv":
+        {  
+            "Sentence": "Islam looks like a cult more than like a religion. It is beliefs make people rape children and commit violence. It should not be accepted in our country.",
+            "Normalized_Sentence": "Islam looks like a group more than like a religion. Its beliefs can be misinterpreted to make people commit crimes. It should be scrutinized in our country.",	
+            "Original_Intensity": 9,
+            "Normalized_Intensity": 5,	
+            "Span": {"start": [0, 13, 22], "end": [4, 19, 27]},
+            "spanbio": "B I I I I O O O O O O O O B I I I I I I O O B I I I I I",
+            "postags": "NNP VBZ IN DT NN JJR IN IN DT NN PRP VBZ JJ JJ NNS VBP NNS CC NN VBP PRP MD RB VB VBN IN PRP$ NN"
+        },
+
+        "hate_int_prof_SVO.tsv":
+        {
+            "Sentence": "Islam looks like a cult more than like a religion. It is beliefs people rape children and commit violence. It should not be accepted in our country.",
+            "Intensity": 9.0,
+            "Profanity (Boolean)": 1,
+            "Subject": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "Verb":	[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+            "Object": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+
+        "hate_norm_combined.pkl and hate_norm_with_span.pkl": 
+        {
+            "Sentence" : "Islam looks like a cult more than like a religion. It is beliefs make people rape children and commit violence. It should not be accepted in our country.",
+            "Normalized_Sentence" :  "Islam looks like a group more than like a religion. Its beliefs can be misinterpreted to make people commit crimes. It should be scrutinized in our country.",
+            "Original_Intensity" :  9.0,
+            "Normalized_Intensity" :  5.0,
+            "Span" :  {"start": [0, 13, 22], "end": [4, 19, 27]},
+            "spanbio" :  "B I I I I O O O O O O O O B I I I I I I O O B I I I I I",
+            "postags" :  "NNP VBZ IN DT NN JJR IN IN DT NN PRP VBZ JJ JJ NNS VBP NNS CC NN VBP PRP MD RB VB VBN IN PRP$ NN"
+        }
+    }
+]
+
+[
+    {
+        "id": 5904,
+        "sentence": "hezzzzah why? So you can look like a mess?",
+        "intensity": 1.0
+    },
+    {
+        "id": 5986,
+        "sentence": "Everyone makes mistakes. But only women don't admit theirs",
+        "intensity": 2.0
+    },
+    {
+        "id": 5991,
+        "sentence": "@user you don't know what your talking about gay",
+        "intensity": 3.0
+    },
+    {
+        "id": 5987,
+        "sentence": "I dislike when girls use guys. We're not toys.",
+        "intensity": 4.0
+    },
+    {
+        "id": 5989,
+        "sentence": "@DemingRyan s bio on here says Build That Wall",
+        "intensity": 5.0
+    },
+    {
+        "id": 5988,
+        "sentence": "Take off those glasses! They aren't real you hipster.",
+        "intensity": 6.0
+    },
+    {
+        "id": 3,
+        "sentence": "Europe is civilised, Muslims should not stay there.",
+        "intensity": 7.0
+    },
+    {
+        "id": 4,
+        "sentence": "If they love Sharia law so much, why do not they go off and live in a Muslim country?",
+        "intensity": 8.0
+    },
+    {
+        "id": 1,
+        "sentence": "Islam looks like a cult more than like a religion. It is beliefs make people rape children and commit violence. It should not be accepted in our country.",
+        "intensity": 9.0
+    },
+    {
+        "id": 2492,
+        "sentence": "What does a woman and a tampon have in common ? They're both stuck up bitches",
+        "intensity": 10.0
+    }
+]
