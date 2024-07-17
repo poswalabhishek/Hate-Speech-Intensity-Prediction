@@ -2,6 +2,8 @@
 
 This repository aims to build up on previous research conducted in normalizing hatespeech. In order to do this, we will be using a dataset that has been previously used in the same context. The dataset can be found [here](https://github.com/poswalabhishek/NLP-Research/tree/main/data) 
 
+Please let me know if you want to test with our API key. Email me at aposwal@connect.ust.hk and I shall review your request.
+
 To achieve the normalizing effect, we have divided the task in 3 subsets as follows:
 
 1. Intensity Detection
